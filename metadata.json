@@ -1,0 +1,6 @@
+{
+  "name": "Classic Skin Therapists",
+  "description": "Professional skincare, facial treatments, body therapy, and beauty solutions in Kampala, Uganda.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
