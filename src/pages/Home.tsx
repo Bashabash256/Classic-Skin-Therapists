@@ -5,6 +5,7 @@ import Button from '../components/Button';
 import heroImg from '../assets/images/hero_spa_treatment_1787259182178.jpg';
 import aboutImg from '../assets/images/about_specialist_1787259194067.jpg';
 import facialImg from '../assets/images/facial_treatment_1787259206146.jpg';
+import beforeAfterImg from '../assets/images/before_after_skincare_1787263154498.jpg';
 
 export default function Home() {
   const skinConcerns = [
@@ -279,7 +280,7 @@ export default function Home() {
           </div>
           <div className="w-full lg:w-1/2 relative">
             <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl border border-slate-700 bg-slate-800">
-               <img src="/src/assets/images/before_after_skincare_1787263154498.jpg" alt="Before and After Skincare Treatment" className="w-full h-full object-cover" />
+               <img src={beforeAfterImg} alt="Before and After Skincare Treatment" className="w-full h-full object-cover" />
             </div>
             <div className="absolute top-4 left-4 bg-slate-900/80 backdrop-blur-md text-white px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider shadow-lg border border-slate-700">Before</div>
             <div className="absolute top-4 right-4 bg-pink-600/90 backdrop-blur-md text-white px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider shadow-lg border border-pink-500">After</div>
