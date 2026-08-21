@@ -211,9 +211,9 @@ export default function Contact() {
             </div>
 
             {/* Google Maps Embed */}
-            <div className="w-full h-48 bg-slate-200 rounded-2xl overflow-hidden shadow-sm border border-slate-200">
+            <div className="w-full aspect-square bg-slate-200 rounded-2xl overflow-hidden shadow-sm border border-slate-200">
               <iframe 
-                src="https://maps.google.com/maps?q=Classic%20Medical%20Spa,%20Kampala,%20Uganda&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+                src="https://maps.google.com/maps?q=Ntinda-Kiwatule%20Road,%20opposite%20Sals%20Hotel,%20Kampala,%20Uganda&t=&z=16&ie=UTF8&iwloc=&output=embed" 
                 width="100%" 
                 height="100%" 
                 style={{ border: 0 }} 
